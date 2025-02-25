@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getCookbookPosts } from "@/lib/getCookbookPosts";
-import { Button } from "@workspace/ui/components/button";
+import { Button } from "@/components/button";
 
 export function CookbookPosts() {
   const allPosts = getCookbookPosts({ includeDrafts: false });
